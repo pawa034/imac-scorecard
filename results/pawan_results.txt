@@ -1,0 +1,35 @@
+Project: pawan
+Response Variable: default_flag
+Number of Features: 16
+
+Selected Features:
+- age
+- income
+- credit_score
+- loan_amount
+- loan_term
+- employment_duration
+- debt_ratio
+- num_credit_lines
+- num_late_payments
+- utilization_rate
+- monthly_payment
+- interest_rate
+- years_credit_history
+- num_recent_loans
+- savings_balance
+- checking_balance
+
+Model Performance:
+        count  events  event_rate  cum_events  cum_non_events         ks
+bucket                                                                  
+0        1243       0    0.000000    0.000000        0.248849  24.884885
+1        1065       0    0.000000    0.000000        0.462062  46.206206
+2         771       0    0.000000    0.000000        0.616416  61.641642
+3         994       0    0.000000    0.000000        0.815415  81.541542
+4         927       5    0.005394    0.000999        1.000000  99.900100
+5        1068    1068    1.000000    0.214386        1.000000  78.561439
+6        1084    1084    1.000000    0.430969        1.000000  56.903097
+7         849     849    1.000000    0.600599        1.000000  39.940060
+8        1101    1101    1.000000    0.820579        1.000000  17.942058
+9         898     898    1.000000    1.000000        1.000000   0.000000

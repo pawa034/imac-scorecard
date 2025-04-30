@@ -1,0 +1,60 @@
+Project: ssss
+Response Variable: ever_01p_06m
+Number of Features: 38
+
+Selected Features:
+- age
+- avg_3m_averagemobilebillamount
+- avg_avmb_12m
+- avg_cc_utilization_band
+- avg_delay_days
+- avg_talk_time_out
+- avg_wallet_credit_ever
+- bur_no_cc_loans
+- bur_no_loans_closed_clean
+- bur_no_unsec_loans_12m_new
+- bur_no_unsec_loans_closed_delq
+- cc_flag
+- cd_max_prod_price
+- count_talk_time_out
+- enq_l12m
+- enq_unsec_l3m_by_l12m
+- insurance_premium
+- l3m_max_bckt
+- leverage_live_loans
+- max_12m_averageelectricitybillamount
+- max_12m_averagemobilerechargeamount
+- max_maximumavailablecreditlimit_12m
+- max_mob_cc
+- max_tot_apps
+- min_bfl_mob
+- min_mob_hl
+- nt_bounces_ever
+- nt_bounces_ever_12m_pb
+- nt_bounces_ever_pb
+- penality_income_received
+- ratio_emi_pen_inc
+- ratio_lv_ln12m
+- ratio_nt_bnc_6m_12m
+- score_drop
+- thick_thin_flag
+- total_live_to_total_loans
+- ttl_enq
+- ttl_unsec_enq_l3m
+
+Model Performance:
+{'roc_auc': np.float64(0.6038842958971431), 'precision': 0.08277709281067981, 'recall': 0.4371351594072744, 'f1': 0.13919571045576407}
+
+KS Table:
+        count  events  event_rate  cum_events  cum_non_events         ks
+bucket                                                                  
+0       16877   460.0    0.027256    0.051639        0.126972   7.533324
+1       11319   315.0    0.027829    0.087000        0.212079  12.507881
+2       14727   527.0    0.035785    0.146161        0.321905  17.574402
+3       17612  1173.0    0.066602    0.277840        0.449047  17.120700
+4       13216  1115.0    0.084367    0.403009        0.542639  13.963007
+5       17411  1424.0    0.081787    0.562865        0.666285  10.342027
+6        9189   685.0    0.074546    0.639762        0.732057   9.229466
+7       15810  1260.0    0.079696    0.781208        0.844589   6.338126
+8       11379   904.0    0.079445    0.882690        0.925605   4.291510
+9       10664  1045.0    0.097993    1.000000        1.000000   0.000000

@@ -1,0 +1,33 @@
+Project: pooo
+Response Variable: default_flag
+Number of Features: 14
+
+Selected Features:
+- age
+- income
+- credit_score
+- loan_amount
+- loan_term
+- employment_duration
+- debt_ratio
+- num_credit_lines
+- num_late_payments
+- utilization_rate
+- monthly_payment
+- interest_rate
+- num_recent_loans
+- savings_balance
+
+Model Performance:
+        count  events  event_rate  cum_events  cum_non_events         ks
+bucket                                                                  
+0        1077       0    0.000000    0.000000        0.215616  21.561562
+1         996       0    0.000000    0.000000        0.415015  41.501502
+2         992       0    0.000000    0.000000        0.613614  61.361361
+3        1016       0    0.000000    0.000000        0.817017  81.701702
+4         922       8    0.008677    0.001598        1.000000  99.840160
+5        1049    1049    1.000000    0.211189        1.000000  78.881119
+6        1091    1091    1.000000    0.429171        1.000000  57.082917
+7        1083    1083    1.000000    0.645554        1.000000  35.444555
+8        1000    1000    1.000000    0.845355        1.000000  15.464535
+9         774     774    1.000000    1.000000        1.000000   0.000000

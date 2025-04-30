@@ -1,0 +1,40 @@
+Project: jsss
+Response Variable: default_flag
+Number of Features: 18
+
+Selected Features:
+- age
+- income
+- credit_score
+- loan_amount
+- loan_term
+- employment_duration
+- debt_ratio
+- num_credit_lines
+- num_late_payments
+- utilization_rate
+- monthly_payment
+- interest_rate
+- num_inquiries
+- num_delinquencies
+- years_credit_history
+- num_recent_loans
+- savings_balance
+- checking_balance
+
+Model Performance:
+{'roc_auc': np.float64(0.9466919466919468), 'precision': 0.9318235432885115, 'recall': 0.7892107892107892, 'f1': 0.8546083946343574}
+
+Development KS Table:
+        count  events  event_rate  cum_events  cum_non_events         ks
+bucket                                                                  
+0        1043    18.0    0.017258    0.003596        0.205205  20.160880
+1        1005    43.0    0.042786    0.012188        0.397798  38.560999
+2        1034    75.0    0.072534    0.027173        0.589790  56.261696
+3        1002   157.0    0.156687    0.058541        0.758959  70.041750
+4         986   341.0    0.345842    0.126673        0.888088  76.141476
+5        1015   660.0    0.650246    0.258541        0.959159  70.061770
+6         998   866.0    0.867735    0.431568        0.985586  55.401715
+7         938   892.0    0.950959    0.609790        0.994795  38.500459
+8        1017   997.0    0.980334    0.808991        0.998799  18.980779
+9         962   956.0    0.993763    1.000000        1.000000   0.000000

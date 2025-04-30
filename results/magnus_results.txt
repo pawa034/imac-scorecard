@@ -1,0 +1,33 @@
+Project: magnus
+Response Variable: default_flag
+Number of Features: 11
+
+Selected Features:
+- age
+- income
+- loan_amount
+- loan_term
+- debt_ratio
+- num_credit_lines
+- utilization_rate
+- interest_rate
+- num_delinquencies
+- years_credit_history
+- employment_type
+
+Model Performance:
+{'roc_auc': np.float64(0.8993114593114592), 'precision': 0.8796514366462553, 'recall': 0.7462537462537463, 'f1': 0.8074802724029835}
+
+KS Table:
+        count  events  event_rate  cum_events  cum_non_events         ks
+bucket                                                                  
+0        1074    57.0    0.053073    0.011389        0.203604  19.221499
+1        1062   108.0    0.101695    0.032967        0.394595  36.162756
+2         992   156.0    0.157258    0.064136        0.561962  49.782610
+3        1003   228.0    0.227318    0.109690        0.717117  60.742681
+4         885   316.0    0.357062    0.172827        0.831031  65.820386
+5        1020   595.0    0.583333    0.291708        0.916116  62.440782
+6         989   757.0    0.765420    0.442957        0.962563  51.960552
+7        1004   903.0    0.899402    0.623377        0.982783  35.940616
+8        1006   946.0    0.940358    0.812388        0.994795  18.240718
+9         965   939.0    0.973057    1.000000        1.000000   0.000000
