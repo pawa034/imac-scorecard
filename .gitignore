@@ -48,4 +48,11 @@ htmlcov/
 
 # OS specific
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Original data files with sensitive information
+demo.csv
+sample_demo.csv
+
+# Masked versions are allowed
+!*_masked.csv 
